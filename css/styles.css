@@ -388,6 +388,22 @@ Featured Tours
     padding: 1.25rem 1.5rem;
 }
 
+/* additional style of tour card */
+.tour-title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tour-title p,
+.tour-title h4 {
+    margin-bottom: 0.5rem;
+    line-height: 1.25rem;
+}
+
+.tour-title p {
+    color: var(--clr-grey-7);
+}
+
 .tour-footer {
     display: flex;
     justify-content: space-between;
